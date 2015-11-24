@@ -1,5 +1,5 @@
-body {
-	background-color:#003cff;	
+.body {
+	background-color:#cc8c4d;	
 }
 .navigation {
 	text-align:center;
@@ -29,6 +29,7 @@ body {
 	color:white;
 	font-family: 'IM Fell English SC', serif;
 	font-size:35px;
+	box-shadow:0px 5px #d29960;
 }
 .jumbotron h1 {
 	line-height:1px;
