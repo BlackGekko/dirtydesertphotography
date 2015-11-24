@@ -1,5 +1,5 @@
 .body {
-	background-color:#cc8c4d;	
+	background-color:#26512e;	
 }
 .navigation {
 	text-align:center;
@@ -29,7 +29,7 @@
 	color:white;
 	font-family: 'IM Fell English SC', serif;
 	font-size:35px;
-	box-shadow:0px 5px #d29960;
+	box-shadow: 0px 2px black;
 }
 .jumbotron h1 {
 	line-height:1px;
@@ -37,7 +37,8 @@
 }
 .pageHeader {
 	text-align:center;
-	font-family: 'IM Fell English SC', serif;	
+	font-family: 'IM Fell English SC', serif;
+	color:white;	
 }
 .mainContent {
 	margin:20px;
@@ -51,7 +52,8 @@
 .sitefooter {
 	margin:0, auto;
 	text-align:center;
-	font-family: 'IM Fell English SC', serif;	
+	font-family: 'IM Fell English SC', serif;
+	color:white;	
 }
 .aboutPost {
 	padding:10px;
