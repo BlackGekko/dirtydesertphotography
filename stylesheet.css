@@ -62,13 +62,15 @@
 	width:auto;
 	margin:0, auto;
 	margin:20px;
-	font-family: 'IM Fell English SC', serif;	
+	font-family: 'IM Fell English SC', serif;
+	color:white;	
 }
 .contactInfo {
 	margin:20px;
 	padding:10px;
 	text-align:center;
-	font-family: 'IM Fell English SC', serif;	
+	font-family: 'IM Fell English SC', serif;
+	color:white;	
 }
 .photos {
 	margin:0, auto;	
@@ -80,7 +82,8 @@
 	text-align:center;
 	height:665;
 	width:1000;
-	font-family: 'IM Fell English SC', serif;	
+	font-family: 'IM Fell English SC', serif;
+	color: white;	
 }
 .comments {
 	margin:0, auto;	
@@ -96,7 +99,8 @@
 	text-align:center;
 	margin:20px;
 	padding:10px;
-	font-family: 'IM Fell English SC', serif;	
+	font-family: 'IM Fell English SC', serif;
+	color: white;	
 }
 .image-links {
 	margin-bottom:5px;
