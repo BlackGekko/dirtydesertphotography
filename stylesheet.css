@@ -65,12 +65,27 @@
 	font-family: 'IM Fell English SC', serif;
 	color:white;	
 }
+.aboutContainer {
+	padding: 10px;
+	text-align: center;
+	font-size: 17px;
+	color: white;
+}
 .contactInfo {
 	margin:20px;
 	padding:10px;
 	text-align:center;
 	font-family: 'IM Fell English SC', serif;
 	color:white;	
+}
+.contactInfo p {
+	font-size: 17px;
+}
+.contactInfo a {
+	color: white;
+}
+.contactInfo a:hover {
+	color: black;
 }
 .photos {
 	margin:0, auto;	
