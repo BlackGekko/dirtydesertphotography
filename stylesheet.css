@@ -85,6 +85,9 @@
 	font-family: 'IM Fell English SC', serif;
 	color: white;	
 }
+.bigImage img {
+	border:3px solid black;
+}
 .comments {
 	margin:0, auto;	
 }
