@@ -60,5 +60,12 @@
 			alert('The images used and displayed on this page belong to Dirty Desert Photography, for information on using these images please contact: contact@dirtydesertphotography.com')	
 		}
 	</script>
+  <script>
+    $(document).ready(function() {
+      $('iframe').bind('contextmenu', function(e) {
+        return false;
+      });
+    });
+  </script>
   </body>
 </html>
