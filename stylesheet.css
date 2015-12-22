@@ -1,4 +1,5 @@
 .body {
+    background: url(backgr-new.jpg); background-repeat: no-repeat; 
 	background-color:#26512e;	
 }
 .navigation {
@@ -19,21 +20,19 @@
 .navigation ul li a:hover {
 	color:black;	
 }
-.jumbotron {
-	text-align:center;
-	background-color: #888;
-	background-image:url(siphons.jpg); background-repeat:no-repeat;
-	background-size:cover;
-	height:400px;
-	width:100%;	
-	color:white;
-	font-family: 'IM Fell English SC', serif;
-	font-size:35px;
-	box-shadow: 0px 2px black;
+.banner {
+    text-align: center;
+    width: 1225px;
+    height:150px;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: 'IM Fell English SC', serif;
 }
-.jumbotron h1 {
-	line-height:1px;
-	text-shadow:5px 5px black;	
+.banner h1 {
+    font-size: 55;
+    text-decoration: underline;
 }
 .pageHeader {
 	text-align:center;
