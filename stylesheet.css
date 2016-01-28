@@ -356,3 +356,11 @@
 .mainContent {
     
 }
+.footer {
+}
+.footer p {
+    color: white;
+}
+.footer img {
+    float: right;
+}
