@@ -357,10 +357,9 @@
     
 }
 .footer {
+    text-align: center;
 }
 .footer p {
     color: white;
-}
-.footer img {
-    float: right;
+    text-align: center;
 }
