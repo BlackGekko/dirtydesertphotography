@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8"/>
     <title>Dirty Desert  Photography</title>
     <link type = "text/css" rel = "stylesheet" href = "stylesheet.css">
-    <link href="css/bootstrap.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> 
-    <script src="js/bootstrap.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Engagement' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <script src="script.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,73 +21,65 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-<body class ="body">  
-  
-  <div class ="navigation">
-    	<ul class ="nav nav-pills">
-        	<li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-        </ul>
-    </div>
-    
-    <div class="banner">
-        <h1>Dirty Desert Photography</h1>
-    </div>
-    
-    <div class ="pageHeader">
-    	<h2>Featured Images</h2>
-    </div>
-    
-    <div class ="mainContent">
-    	<table align="center" class ="gallery" border="2px solid">
-        	<tr>
-            	<td class="fet"><a href="image1.html"><img src ="horse1.jpg"></a></td>
-                <td class="fet"><a href="image2.html"><img src ="horse2.jpg"></a></td>
-                <td class="fet"><a href="image3.html"><img src ="horse3.jpg"></a></td>
-            </tr>
-
-            <tr>
-            	<td class="fet"><a href="image4.html"><img src ="elvis.jpg"></a></td>
-                <td class="fet"><a href="image5.html"><img src ="roadlong.jpg"></a></td>
-                <td class="fet"><a href="image6.html"><img src ="siphons2.jpg"></a></td>
-            </tr>
-            
-            <tr>
-            	<td class="fet"><a href="image7.html"><img src ="sunset1.jpg"></a></td>
-                <td class="fet"><a href="image8.html"><img src ="sunset2.jpg"></a></td>
-                <td class="fet"><a href="image9.html"><img src ="sunsetlake.jpg"></a></td>
-            </tr>
-        </table>
-    </div>
-    
-	<footer class ="sitefooter">
-       <p>&copy;Dirty Desert Photography</p>
-  		<p>To read this pages disclaimer please click here:</p>
-        <button class="btn btn-default" onClick="disclaimer()">Disclaimer</button><br>
-        <div class -"social-links">
-        <a href="https://www.facebook.com/Dirty-Desert-Photography-903793746322912/photos/?ref=page_internal"><img src ="facebook.png"></a>
-        <img src ="instagram.png">
-        </div>
-	</footer>
-    
-	<script>
-		function disclaimer() {
-			'use strict';
-			alert('The images used and displayed on this page belong to Dirty Desert Photography, for information on using these images please contact: contact@dirtydesertphotography.com, social 	                   media icons created by Alfredo H under the Creative Commons License 3.0 at https://www.iconfinder.com/iconsets/black-white-social-media')	
-		}
-	</script>
-    <script>
-        $(document).ready(function(e) {
-           $('img').bind('contextmenu', function(e) {
-              return false; 
-           });
-           $('.mainContent').hide();
-           
-           $('.mainContent').slideDown(1000);
-        });
-    </script>
-</body>
+  <body class="body">
+      <div class="navigation">
+          <div id='cssmenu'>
+              <ul>
+                <li><a href='index.html'>Home</a></li>
+                <li><a href='about.html'>About</a></li>
+                <li><a href='contact.html'>Contact</a></li>
+                <li><a href='gallery.html'>More</a></li>
+              </ul>
+           </div>
+      </div>
+      <div class="tron">
+          <div class="row">
+              <div class="large-12 columns">
+                  <div class="callout large" style="background-color:#262626;">
+                      <h1 style="font-family:'IM Fell English SC', serif;">Dirty Desert Photography</h1>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="mainContent">
+          <div class="row">
+              <div class="large-12 columns">
+                  <div class="callout large" style="background-color:#262626;">
+                      <table align="center" class="gallery">
+                          <tr>
+                              <td class="fet" class="bords"><a href="image1.html"><img src ="horse1.jpg"></a></td>
+                              <td class="fet" id="middle" class="bords"><a href="image2.html"><img src ="horse2.jpg"></a></td>
+                              <td class="fet" class="bords"><a href="image3.html"><img src ="horse3.jpg"></a></td>
+                          </tr>
+                          <tr>
+                              <td class="fet"><a href="image4.html"><img src ="elvis.jpg"></a></td>
+                              <td class="fet" id="middle"><a href="image5.html"><img src ="roadlong.jpg"></a></td>
+                              <td class="fet"><a href="image6.html"><img src ="siphons2.jpg"></a></td>
+                          </tr>
+                          <tr>
+                              <td class="fet" class="bords"><a href="image7.html"><img src ="sunset1.jpg"></a></td>
+                              <td class="fet" id="middle" class="bords"><a href="image8.html"><img src ="sunset2.jpg"></a></td>
+                              <td class="fet" class="bords"><a href="image9.html"><img src ="sunsetlake.jpg"></a></td>
+                          </tr>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer">
+          <div class="row">
+              <div class="large-12 columns">
+                  <div class="callout large" style="background-color:#262626;">
+                      <p>&copy Dirty Desert Photography</p>
+                      <a href="https://www.facebook.com/Dirty-Desert-Photography-903793746322912/photos/?ref=page_internal"><img src="facebook.png" alt="Facebook"></a>
+                      <img src="instagram.png" alt="Instagram">
+                      <p style="color:#444;">All images shown on this site belong to Dirty Desert Photography, for information on how you may use these images, visit the contact page for this site.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <script>
+          
+      </script>
+  </body>
 </html>
-
