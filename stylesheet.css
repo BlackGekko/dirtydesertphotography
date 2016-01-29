@@ -1,6 +1,6 @@
 .body {
     background: url(backgr-new.jpg); background-repeat: no-repeat; 
-	background-color:#26512e;	
+	background-color:black;	
 }
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 #cssmenu,
@@ -368,5 +368,11 @@
     padding-right: 0px;
 }
 .aboutDDP {
+    text-align: center;
+}
+.contact {
+    text-align: center;
+}
+.galleryHead {
     text-align: center;
 }
