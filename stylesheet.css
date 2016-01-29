@@ -363,3 +363,10 @@
     color: white;
     text-align: center;
 }
+#middle {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.aboutDDP {
+    text-align: center;
+}
