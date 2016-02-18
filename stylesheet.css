@@ -355,6 +355,7 @@
 }
 .footer {
     text-align: center;
+    margin-top: 10px;
 }
 .footer p {
     color: white;
@@ -375,4 +376,14 @@
 }
 .bigImage {
     text-align: center;
+}
+.roundTest {
+    text-align: center;
+}
+.roundTest p {
+    color: white;
+}
+.info
+{
+	margin-top:10px;
 }
